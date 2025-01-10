@@ -20,6 +20,8 @@ API de autenticação e registro de usuários utilizando Spring Boot, com suport
       "password": "senha123"
     }
     ```
+- **GET /user**: Retorna informações do usuário autenticado (requer token JWT).
+  - **Header de Autorização**: `Authorization: Bearer <seu_token_aqui>`
 
 ## Tecnologias Utilizadas
 - **Spring Boot**: Framework principal.
@@ -36,4 +38,6 @@ API de autenticação e registro de usuários utilizando Spring Boot, com suport
 
 ## Autor
 Projeto desenvolvido por Gabriel Walter Arantes.
+
+
 
